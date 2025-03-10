@@ -8,18 +8,16 @@ public class PersonId implements Serializable {
     private String surname;
     private int age;
 
-    // Default constructor
     public PersonId() {
     }
 
-    // Parameterized constructor
-    public PersonId(String name, String surname, int age) {
+     PersonId(String name, String surname, int age) {
         this.name = name;
         this.surname = surname;
         this.age = age;
     }
 
-    // Getters and Setters
+
     public String getName() {
         return name;
     }

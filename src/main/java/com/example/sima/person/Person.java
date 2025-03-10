@@ -7,7 +7,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.IdClass;
 import jakarta.persistence.Table;
 
-
 @Entity
 @Table(name = "PERSONS")
 @IdClass(PersonId.class)
@@ -26,7 +25,6 @@ public class Person {
 
     @Column(name = "city_of_living")
     private String cityOfLiving;
-
 
     public String getName() {
         return name;
@@ -66,5 +64,12 @@ public class Person {
 
     public void setCityOfLiving(String cityOfLiving) {
         this.cityOfLiving = cityOfLiving;
+    }
+
+    public Object getCity() {
+        return null;
+    }
+
+    public void setCity(Object city) {
     }
 }
