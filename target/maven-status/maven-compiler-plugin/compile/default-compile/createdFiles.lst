@@ -1,0 +1,7 @@
+com\example\sima\controller\PersonController.class
+com\example\sima\repository\PersonRepository.class
+com\example\sima\security\SecurityConfig.class
+com\example\sima\controller\HomeController.class
+com\example\sima\personId\PersonId.class
+com\example\sima\person\Person.class
+com\example\sima\SimaApplication.class
